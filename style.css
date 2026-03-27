@@ -101,19 +101,29 @@
 /* GRID */
 .grid-3 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  align-items:center;
   gap: 30px;
   padding: 40px;
 }
 .card {
-  background: #0f172a;
+  background: #2e4272;
   padding: 30px;
   border-radius: 15px;
   transition: 0.3s;
+  border: 2px solid black;
+  align-content: center;
+  height:150px;
+  h3,p{
+    background-color: transparent;
+  }
 }
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 30px rgba(27, 26, 26, 0.5);
+  opacity: 0.7;
+  backdrop-filter: blur(5px);
 }
 
 /* CONTACT */
