@@ -61,9 +61,11 @@
   font-size: 48px;
   max-width: 800px;
   line-height: 1.2;
+  background: transparent;
 }
 .hero span {
   color: #38bdf8;
+ background-color: transparent;
 }
 .hero-buttons {
   margin-top: 20px;
