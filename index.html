@@ -1,0 +1,111 @@
+<!-- ================== ADVANCED PORTFOLIO ================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claire | Elite Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="header">
+  <nav class="nav">
+    <h1 class="logo">Claire<span>.</span></h1>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>I Build Powerful <span>Digital Solutions</span></h1>
+    <p class="typing"></p>
+    <div class="hero-buttons">
+      <button onclick="scrollToSection('projects')">View Projects</button>
+      <button class="outline" onclick="scrollToSection('contact')">Hire Me</button>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      I'm an advanced Python & Django developer focused on building scalable backend systems,
+      APIs, and cybersecurity tools. I transform ideas into high-performance applications.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <h2>My Services</h2>
+  <div class="grid-3">
+    <div class="card">
+      <h3>Web Development</h3>
+      <p>Modern, fast, responsive websites.</p>
+    </div>
+    <div class="card">
+      <h3>API Engineering</h3>
+      <p>Secure and scalable Django REST APIs.</p>
+    </div>
+    <div class="card">
+      <h3>Cybersecurity</h3>
+      <p>Security automation & monitoring tools.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+  <h2>Featured Projects</h2>
+  <div id="project-container" class="grid-3"></div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="testimonials">
+  <h2>What Clients Say</h2>
+  <div class="grid-3">
+    <div class="card">
+      <p>"Outstanding developer with real problem-solving skills."</p>
+    </div>
+    <div class="card">
+      <p>"Delivered secure and scalable systems."</p>
+    </div>
+    <div class="card">
+      <p>"Highly recommended for backend work."</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Let's Work Together</h2>
+  <form id="contact-form">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Claire | Built with passion</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
